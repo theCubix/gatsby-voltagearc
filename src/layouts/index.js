@@ -4,7 +4,7 @@ import React from 'react'
 import '../sass/main.scss'
 
 const Layout = ({ children, data }) => (
-  <div>
+  <div className="dark-background">
       {children()}
   </div>
 )
