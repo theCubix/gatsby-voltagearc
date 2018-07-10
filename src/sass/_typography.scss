@@ -25,6 +25,28 @@
   &--margin-top-large {
     margin-top: 7.5rem;
   }
+
+  &--heading-z1 {
+    position: relative;
+    z-index: 1;
+  }
+
+  &--letter {
+    color: rgba($red-light, 0.15);
+    display: inline-block;
+    font-size: 18.75rem;
+    line-height: 18.75rem;
+    margin-top: -8.375rem;
+    margin-left: -4.5rem;
+    position: absolute;
+    top: 0;
+    user-select: none;
+    z-index: 0;
+  }
+
+  &__wrapper {
+    position: relative;
+  }
 }
 
 @supports (hyphens: auto) {
