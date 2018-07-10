@@ -1,7 +1,12 @@
 import React from 'react'
 
+import Heading from '../components/heading'
+
 const IndexPage = () => (
   <div>
+
+    <Heading title="Heading Level 1 with Huge Letter" />
+
     <h1 className="heading heading--level-1 heading--margin-top-large">Heading Level 1</h1>
     <h2 className="heading heading--level-2">Heading Level 2</h2>
     <p className="text">
