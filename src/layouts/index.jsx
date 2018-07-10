@@ -5,7 +5,9 @@ import '../sass/main.scss'
 
 const Layout = ({ children, data }) => (
   <div className="dark-background">
+    <div className="container">
       {children()}
+    </div>
   </div>
 )
 
