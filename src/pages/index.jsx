@@ -5,9 +5,6 @@ import ButtonLink from '../components/ButtonLink';
 
 const IndexPage = () => (
   <div>
-
-    <ButtonLink dest="/page-2/" className="z-1">Page Two</ButtonLink>
-    <ButtonLink dest="/button/" className="z-1">button</ButtonLink>
     <Heading title="Heading Level 1 with Huge Letter" letter="H" />
     <div className="z-1">
       <h1 className="heading heading--level-1 heading--margin-top-large">Heading Level 1</h1>
@@ -27,6 +24,8 @@ const IndexPage = () => (
       <p className="text text--line-height-narrower">
         <b className="text--primary">Narrower Line Height Text</b> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio aspernatur quasi quia tenetur a, culpa harum quibusdam doloremque praesentium dolorem saepe similique vitae voluptatibus omnis, voluptatem laboriosam unde at perspiciatis nostrum neque ea assumenda error. Temporibus facere aut aperiam eligendi officia doloribus molestias earum veritatis voluptatum eveniet ab fuga maxime rerum, impedit nostrum eius. Neque excepturi nulla repudiandae fugit, minus quasi. Porro accusantium, repellendus in natus id, quia quo, odio itaque distinctio beatae minus impedit. Labore unde ipsum optio porro amet suscipit provident adipisci, assumenda facilis voluptates distinctio, at commodi error quidem, earum fugit quod vero. Blanditiis tempora nostrum necessitatibus.
       </p>
+      <ButtonLink dest="/page-2/" className="z-1 margin-top-md">Go To Page Two</ButtonLink><br />
+      <ButtonLink dest="/button/" className="z-1 margin-top-md margin-bottom-md">Visit Button Test Page</ButtonLink>
     </div>
 
   </div>

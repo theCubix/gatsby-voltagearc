@@ -5,8 +5,6 @@ import ButtonLink from '../components/ButtonLink';
 
 const IndexPage = () => (
   <div>
-
-    <ButtonLink dest="/" className="z-1">Page One</ButtonLink>
     <Heading title="Page Two" letter="P" />
     <div className="z-1">
       <p className="text text--justified">
@@ -72,6 +70,7 @@ const IndexPage = () => (
         non soluta similique numquam officia nihil ipsa. Reiciendis ab voluptate aliquid recusandae.
       </p>
     </div>
+    <ButtonLink dest="/" className="z-1 margin-top-md margin-bottom-md">Go Home</ButtonLink>
   </div>
 )
 
