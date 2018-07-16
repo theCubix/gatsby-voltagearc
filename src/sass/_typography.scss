@@ -31,7 +31,11 @@
     z-index: 1;
   }
 
-  &--letter {
+  &__wrapper {
+    position: relative;
+  }
+
+  &__letter {
     color: rgba($red-light, 0.15);
     display: inline-block;
     font-size: 18.75rem;
@@ -42,10 +46,6 @@
     top: 0;
     user-select: none;
     z-index: 0;
-  }
-
-  &__wrapper {
-    position: relative;
   }
 }
 
