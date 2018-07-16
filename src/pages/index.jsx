@@ -1,11 +1,13 @@
-import React from 'react'
+import React from 'react';
 
-import Heading from '../components/heading'
+import Heading from '../components/Heading';
+import ButtonLink from '../components/ButtonLink';
 
 const IndexPage = () => (
   <div>
 
-    <Heading title="Heading Level 1 with Huge Letter" />
+    <ButtonLink dest="/page-2/" className="z-1">Page Two</ButtonLink>
+    <Heading title="Heading Level 1 with Huge Letter" letter="H" />
 
     <h1 className="heading heading--level-1 heading--margin-top-large">Heading Level 1</h1>
     <h2 className="heading heading--level-2">Heading Level 2</h2>
