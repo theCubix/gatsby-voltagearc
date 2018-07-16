@@ -7,7 +7,8 @@ const IndexPage = () => (
   <div style={{
     marginTop: '100px'
   }}>
-    <ButtonLink dest="/" className="z-1">Home</ButtonLink>
+    <Heading title="Button" letter="B" />
+    <ButtonLink dest="/" className="z-1">Home again</ButtonLink>
   </div>
 )
 
