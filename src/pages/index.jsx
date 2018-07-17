@@ -2,6 +2,7 @@ import React from 'react';
 
 import Heading from '../components/Heading';
 import ButtonLink from '../components/ButtonLink';
+import Video from '../components/Video';
 
 const IndexPage = () => (
   <div>
@@ -26,9 +27,14 @@ const IndexPage = () => (
       </p>
       <ButtonLink dest="/page-2/" className="z-1 margin-top-md">Go To Page Two</ButtonLink><br />
       <ButtonLink dest="/button/" className="z-1 margin-top-md margin-bottom-md">Visit Button Test Page</ButtonLink>
+      <Video
+        className="video"
+        youtubeID="1ht5Ylb_zUM" />
+      <Video
+        className="video"
+        youtubeID="tyvSVg-Rh9g" />
     </div>
-
   </div>
-)
+);
 
-export default IndexPage
+export default IndexPage;
